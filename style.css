@@ -43,8 +43,12 @@ body {
 }
 
 .apresentacao__links {
+    font-family: 'Krona One', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 32px;
+    align-items: center;
 }
 
 .apresentacao__links__link {
