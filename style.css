@@ -64,10 +64,24 @@ body {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    transition: 0.4s;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #2f2f2f;
 }
 
 .apresentacao__links__subtitulo {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
     font-size: 24px;
+}
+
+.imagem__home__img {
+    width: 100%;
+    transition: 1s;
+}
+
+.imagem__home__img:hover {
+    width: 110%;
 }
